@@ -1,1 +1,24 @@
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>ColdBox Security Scanner (Demo)</title>
+    <style>
+      body { font-family: Arial, sans-serif; padding: 1.5rem; }
+      .card { border: 1px solid #ddd; padding: 1rem; border-radius: 6px; max-width: 800px; }
+      button { padding: 0.6rem 1rem; font-size: 1rem; }
+    </style>
+  </head>
+  <body>
+    <h1>ColdBox Security Scanner — Demo</h1>
+    <div class="card">
+      <p>This demo scans a **safe, public test target** only: <strong>http://testphp.vulnweb.com</strong></p>
+      <p>Click the button below to run a demonstration scan. The scan may take a while (several seconds — up to a minute).</p>
+      <form method="POST">
+        <button type="submit">Run Demo Scan</button>
+      </form>
+    </div>
+    <p style="margin-top:1rem;color:#a00">Important: do not use this app to scan real targets without permission.</p>
+  </body>
+</html>
