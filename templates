@@ -1,1 +1,19 @@
-
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Scan Results</title>
+    <style>
+      body { font-family: Arial, sans-serif; padding: 1.5rem; }
+      pre { background:#f8f8f8; padding:1rem; border-radius:6px; overflow:auto; max-width:100%; }
+      a.button { display:inline-block; margin-top:1rem; padding:0.5rem 0.8rem; background:#007bff; color:#fff; border-radius:6px; text-decoration:none; }
+    </style>
+  </head>
+  <body>
+    <h1>Scan Results (Demo)</h1>
+    <p>Target: <strong>{{ target }}</strong></p>
+    <pre>{{ report }}</pre>
+    <a href="/" class="button">Run Again</a>
+  </body>
+</html>
